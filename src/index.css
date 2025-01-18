@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-all
+}
+body {
+  @apply bg-yellow-50
+}
+:is(a, button):hover {
+  @apply scale-110
+}
+fieldset > label > input:checked {
+  @apply bg-yellow-300
+}
