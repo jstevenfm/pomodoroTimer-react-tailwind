@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  @apply transition-all
+  @apply transition-all text-yellow-900
 }
 body {
   @apply bg-yellow-50
